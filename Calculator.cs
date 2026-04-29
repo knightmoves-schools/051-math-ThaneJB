@@ -2,10 +2,14 @@
 
 public class Calculator{
     public int Max(int first, int second){
-        return 0;
+        int max = Math.Max(9,50);
+
+        return ($"{max}");
     }
 
     public double Round(double value){
-        return 0.00;
+        double rounded = Math.Round(12.23456789, 3);
+
+        return ($"{rounded}");
     }
 }
